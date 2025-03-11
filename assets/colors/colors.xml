@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+ <color name="primaryColor" type="material">#B80A19</color>
+ <color name="brightGrey" type="material">#EEEEEE</color>
+ <color name="black" type="material">#000000</color>
+ <color name="white" type="material">#FFFFFF</color>
+ <color name="darkGrey">#2E2D2C</color>
+ <color name="secondaryColor">#F6F6F5</color>
+  <color name="blue">#6AAAF4</color>
+    <color name="textFieldFillColor">#6CA8F2</color>
+
+</resources>
