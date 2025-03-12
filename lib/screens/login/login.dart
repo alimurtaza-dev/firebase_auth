@@ -5,6 +5,7 @@ import 'package:firebase_auth_practice/utils/app_textfield.dart';
 import 'package:flutter/material.dart';
 
 import '../../utils/app_button.dart';
+import 'login_with_phone.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({super.key});
@@ -79,6 +80,19 @@ class _LoginScreenState extends State<LoginScreen> {
                       ));
                 },
                 child: Text('Sign Up'),
+              ),
+              SizedBox(
+                width: 30,
+              ),
+              GestureDetector(
+                onTap: () {
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => LoginWithPhone(),
+                      ));
+                },
+                child: Text('Login With Phone'),
               ),
             ],
           ),
